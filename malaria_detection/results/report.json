@@ -1,0 +1,85 @@
+{
+  "status": "completed",
+  "model_info": {
+    "name": "MobileNetV2 Transfer Learning",
+    "total_parameters": 2618945,
+    "framework": "TensorFlow/Keras 2.18.1"
+  },
+  "dataset": {
+    "total_images": 20,
+    "classes": [
+      "Parasitized",
+      "Uninfected"
+    ],
+    "split": {
+      "training": 12,
+      "validation": 4,
+      "testing": 4
+    },
+    "class_distribution": {
+      "parasitized": 10,
+      "uninfected": 10
+    }
+  },
+  "training_results": {
+    "total_epochs": 25,
+    "final_epoch": 23,
+    "best_epoch": 18,
+    "early_stopping": true,
+    "learning_rates": [
+      "1.0e-04",
+      "5.0e-05"
+    ]
+  },
+  "performance_metrics": {
+    "test_accuracy": 0.5,
+    "test_loss": 0.7567466735839844,
+    "best_validation_accuracy": 0.5,
+    "best_validation_loss": 0.7172410488128662
+  },
+  "classification_metrics": {
+    "accuracy": 0.5,
+    "macro_avg_precision": 0.5,
+    "macro_avg_recall": 0.5,
+    "macro_avg_f1": 0.5,
+    "weighted_avg_precision": 0.5,
+    "weighted_avg_recall": 0.5,
+    "weighted_avg_f1": 0.5,
+    "per_class": {
+      "parasitized": {
+        "precision": 0.5,
+        "recall": 0.5,
+        "f1_score": 0.5,
+        "support": 2
+      },
+      "uninfected": {
+        "precision": 0.5,
+        "recall": 0.5,
+        "f1_score": 0.5,
+        "support": 2
+      }
+    }
+  },
+  "confusion_matrix": {
+    "true_negatives": 0,
+    "false_positives": 0,
+    "false_negatives": 0,
+    "true_positives": 0
+  },
+  "model_files": {
+    "best_model": "models/best_model.h5",
+    "final_model": "models/malaria_model.h5",
+    "training_history_plot": "results/training_history.png",
+    "confusion_matrix_plot": "results/confusion_matrix.png"
+  },
+  "recommendations": {
+    "accuracy_note": "Current accuracy is based on demo/test dataset. For production models, train with 500+ high-quality images per class for 85-95% accuracy.",
+    "next_steps": [
+      "Collect more high-quality blood cell images for training",
+      "Continue with real-world malaria detection dataset",
+      "Fine-tune hyperparameters for better accuracy",
+      "Deploy model for real clinical use"
+    ]
+  },
+  "timestamp": "2026-03-09T13:27:01.268043"
+}
