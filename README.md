@@ -10,8 +10,12 @@ This system provides a high-accuracy solution for classifying blood cell images 
 ## 🚀 Quick Run (3 Steps)
 
 ### 1. **Setup & Activate**
+Ensure you are in the `malaria_detection` folder, then activate the virtual environment:
 ```powershell
+# From the project root, go to the source folder:
 cd malaria_detection
+
+# Activate (if not already active):
 ..\venv\Scripts\activate
 ```
 
