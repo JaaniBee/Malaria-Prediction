@@ -23,8 +23,8 @@
   },
   "training_results": {
     "total_epochs": 25,
-    "final_epoch": 23,
-    "best_epoch": 18,
+    "final_epoch": 16,
+    "best_epoch": 11,
     "early_stopping": true,
     "learning_rates": [
       "1.0e-04",
@@ -33,9 +33,9 @@
   },
   "performance_metrics": {
     "test_accuracy": 0.5,
-    "test_loss": 0.7567466735839844,
-    "best_validation_accuracy": 0.5,
-    "best_validation_loss": 0.7172410488128662
+    "test_loss": 0.8580629348754882,
+    "best_validation_accuracy": 1.0,
+    "best_validation_loss": 0.6717444658279419
   },
   "classification_metrics": {
     "accuracy": 0.5,
@@ -81,5 +81,5 @@
       "Deploy model for real clinical use"
     ]
   },
-  "timestamp": "2026-03-09T13:27:01.268043"
+  "timestamp": "2026-03-25T18:50:13.359904"
 }

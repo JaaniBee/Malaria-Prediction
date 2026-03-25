@@ -1,0 +1,24 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+pip-log.txt
+pip-delete-this-directory.txt
+.venv
+node_modules/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project Specific
+malaria_detection/data/processed/
+malaria_detection/temp_predict.jpg
+malaria_detection/results/*.png
+malaria_detection/results/*.json
+malaria_detection/results/*.txt
+!malaria_detection/results/predictions_report.txt
